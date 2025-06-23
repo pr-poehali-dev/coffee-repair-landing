@@ -101,7 +101,7 @@ const Hero = () => {
             <h3 className="font-semibold text-gray-900 mb-2">
               Гарантия качества
             </h3>
-            <p className="text-gray-600 text-sm">До 12 месяцев на работы</p>
+            <p className="text-gray-600 text-sm">До 6 месяцев на работы</p>
           </div>
 
           <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg">
