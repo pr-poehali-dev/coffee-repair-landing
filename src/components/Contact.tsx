@@ -27,7 +27,7 @@ const Contact = () => {
       icon: "MapPin",
       title: "Адрес",
       value: "ул. Кофейная, 15",
-      description: "м. Парк Культуры",
+      description: "г. Лабытнанги",
     },
   ];
 
