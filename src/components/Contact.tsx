@@ -25,7 +25,7 @@ const Contact = () => {
     },
     {
       icon: "MapPin",
-      title: "Адрес мастерской",
+      title: "Адрес",
       value: "ул. Кофейная, 15",
       description: "м. Парк Культуры",
     },
