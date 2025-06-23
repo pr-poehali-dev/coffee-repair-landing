@@ -16,12 +16,7 @@ const Contact = () => {
       value: "+7 (912) 42 442 42",
       description: "Звоните с 10:00 до 18:00. Суббота выходной",
     },
-    {
-      icon: "MessageCircle",
-      title: "WhatsApp",
-      value: "+7 (912) 42 442 42",
-      description: "Online консультации",
-    },
+
     {
       icon: "Mail",
       title: "Email",
