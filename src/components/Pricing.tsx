@@ -107,9 +107,6 @@ const Pricing = () => {
               От 3 до 12 месяцев в зависимости от типа ремонта. Используем
               только оригинальные запчасти.
             </p>
-            <Button className="bg-violet-600 hover:bg-violet-700 text-white px-8 py-3 rounded-xl">
-              Узнать точную стоимость
-            </Button>
           </div>
         </div>
       </div>
