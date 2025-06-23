@@ -14,7 +14,7 @@ const Contact = () => {
       icon: "Phone",
       title: "Телефон",
       value: "+7 (495) 123-45-67",
-      description: "Звоните с 9:00 до 21:00",
+      description: "Звоните с 10:00 до 18:00. Суббота выходной",
     },
     {
       icon: "MessageCircle",
