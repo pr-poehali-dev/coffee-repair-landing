@@ -147,7 +147,15 @@ const Contact = () => {
                   <span className="font-semibold">10:00 - 16:00</span>
                 </div>
               </div>
-              <Button className="w-full mt-6 bg-violet-600 hover:bg-violet-700 text-white rounded-xl">
+              <Button
+                onClick={() =>
+                  window.open(
+                    "https://yandex.ru/maps/?text=Москва, ул. Тверская, 15&mode=routes",
+                    "_blank",
+                  )
+                }
+                className="w-full mt-6 bg-violet-600 hover:bg-violet-700 text-white rounded-xl"
+              >
                 <Icon name="Navigation" size={20} className="mr-2" />
                 Построить маршрут
               </Button>
