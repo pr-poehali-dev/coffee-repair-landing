@@ -92,11 +92,40 @@ const Pricing = () => {
               <CardHeader className="pb-4">
                 <div className="flex items-center gap-3">
                   <div className="bg-orange-100 w-12 h-12 rounded-lg flex items-center justify-center">
-                    <Icon
-                      name={item.icon as any}
-                      size={24}
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
                       className="text-orange-600"
-                    />
+                    >
+                      <path
+                        d="M4 6h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"
+                        fill="currentColor"
+                        fillOpacity="0.1"
+                        stroke="currentColor"
+                        strokeWidth="1.5"
+                      />
+                      <path
+                        d="M6 18v2a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-2"
+                        stroke="currentColor"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                      />
+                      <circle
+                        cx="12"
+                        cy="11"
+                        r="2"
+                        fill="currentColor"
+                        fillOpacity="0.3"
+                      />
+                      <path
+                        d="M19 9h2a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-2"
+                        stroke="currentColor"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                      />
+                    </svg>
                   </div>
                   <div>
                     <CardTitle className="text-lg font-semibold text-gray-900">
