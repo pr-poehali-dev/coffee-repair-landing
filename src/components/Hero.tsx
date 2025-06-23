@@ -1,5 +1,11 @@
 import { Button } from "@/components/ui/button";
 import Icon from "@/components/ui/icon";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 const Hero = () => {
   return (
@@ -33,14 +39,46 @@ const Hero = () => {
               Позвонить
             </Button>
           </a>
-          <Button
-            variant="outline"
-            size="lg"
-            className="border-2 border-violet-600 text-violet-600 hover:bg-violet-50 px-8 py-4 rounded-xl text-lg"
-          >
-            <Icon name="MessageCircle" size={20} className="mr-2" />
-            Онлайн консультация
-          </Button>
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button
+                variant="outline"
+                size="lg"
+                className="border-2 border-violet-600 text-violet-600 hover:bg-violet-50 px-8 py-4 rounded-xl text-lg"
+              >
+                <Icon name="MessageCircle" size={20} className="mr-2" />
+                Онлайн консультация
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="center" className="w-56">
+              <DropdownMenuItem asChild>
+                <a
+                  href="https://wa.me/79124244242"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center cursor-pointer"
+                >
+                  <Icon
+                    name="MessageCircle"
+                    size={16}
+                    className="mr-2 text-green-600"
+                  />
+                  WhatsApp
+                </a>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <a
+                  href="https://t.me/79124244242"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center cursor-pointer"
+                >
+                  <Icon name="Send" size={16} className="mr-2 text-blue-600" />
+                  Telegram
+                </a>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
