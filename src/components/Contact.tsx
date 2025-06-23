@@ -144,7 +144,7 @@ const Contact = () => {
                 </div>
                 <div className="flex justify-between">
                   <span>Воскресенье:</span>
-                  <span className="font-semibold">Выходной</span>
+                  <span className="font-semibold">10:00 - 16:00</span>
                 </div>
               </div>
               <Button className="w-full mt-6 bg-violet-600 hover:bg-violet-700 text-white rounded-xl">
