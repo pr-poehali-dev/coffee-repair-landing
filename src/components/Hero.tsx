@@ -1,11 +1,5 @@
 import { Button } from "@/components/ui/button";
 import Icon from "@/components/ui/icon";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
 
 const Hero = () => {
   return (
@@ -41,46 +35,14 @@ const Hero = () => {
               Позвонить
             </Button>
           </a>
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <Button
-                variant="outline"
-                size="lg"
-                className="border-2 border-orange-500 text-orange-500 hover:bg-orange-50 px-8 py-4 rounded-xl text-lg"
-              >
-                <Icon name="Calculator" size={20} className="mr-2" />
-                Узнать точную стоимость
-              </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="center" className="w-56">
-              <DropdownMenuItem asChild>
-                <a
-                  href="https://wa.me/79124244242"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center cursor-pointer"
-                >
-                  <Icon
-                    name="MessageCircle"
-                    size={16}
-                    className="mr-2 text-green-600"
-                  />
-                  WhatsApp
-                </a>
-              </DropdownMenuItem>
-              <DropdownMenuItem asChild>
-                <a
-                  href="https://t.me/79124244242"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center cursor-pointer"
-                >
-                  <Icon name="Send" size={16} className="mr-2 text-blue-600" />
-                  Telegram
-                </a>
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
+          <Button
+            variant="outline"
+            size="lg"
+            className="border-2 border-orange-500 text-orange-500 hover:bg-orange-50 px-8 py-4 rounded-xl text-lg"
+          >
+            <Icon name="Calculator" size={20} className="mr-2" />
+            Узнать точную стоимость
+          </Button>
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button
