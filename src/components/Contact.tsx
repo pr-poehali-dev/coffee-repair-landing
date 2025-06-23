@@ -25,7 +25,7 @@ const Contact = () => {
     {
       icon: "Mail",
       title: "Email",
-      value: "info@coffee-repair.ru",
+      value: "service@bitport.ru",
       description: "Ответим в течение часа",
     },
     {
