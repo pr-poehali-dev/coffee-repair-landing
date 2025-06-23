@@ -12,7 +12,7 @@ const Contact = () => {
   const contacts = [
     {
       icon: "Phone",
-      title: "Телефон",
+      title: "Телефон, Whatsapp, Telegram",
       value: "+7 (912) 42 442 42",
       description: "Звоните с 10:00 до 18:00. Суббота выходной",
     },
