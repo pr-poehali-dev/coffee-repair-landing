@@ -24,13 +24,15 @@ const Hero = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-          <Button
-            size="lg"
-            className="bg-violet-600 hover:bg-violet-700 text-white px-8 py-4 rounded-xl text-lg"
-          >
-            <Icon name="Phone" size={20} className="mr-2" />
-            Вызвать мастера
-          </Button>
+          <a href="tel:+79124244242">
+            <Button
+              size="lg"
+              className="bg-violet-600 hover:bg-violet-700 text-white px-8 py-4 rounded-xl text-lg"
+            >
+              <Icon name="Phone" size={20} className="mr-2" />
+              Позвонить
+            </Button>
+          </a>
           <Button
             variant="outline"
             size="lg"
