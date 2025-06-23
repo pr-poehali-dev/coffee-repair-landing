@@ -13,13 +13,13 @@ const Contact = () => {
     {
       icon: "Phone",
       title: "Телефон",
-      value: "+7 (495) 123-45-67",
+      value: "+7 (912) 42 442 42",
       description: "Звоните с 10:00 до 18:00. Суббота выходной",
     },
     {
       icon: "MessageCircle",
       title: "WhatsApp",
-      value: "+7 (495) 123-45-67",
+      value: "+7 (912) 42 442 42",
       description: "Online консультации",
     },
     {
