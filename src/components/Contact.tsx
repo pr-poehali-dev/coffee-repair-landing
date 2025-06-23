@@ -150,7 +150,7 @@ const Contact = () => {
               <Button
                 onClick={() =>
                   window.open(
-                    "https://yandex.ru/maps/?text=г Лабытнанги ул. Школьная 24, ТЦ Донбасс, Технический сервис битпорт&mode=routes",
+                    "https://yandex.ru/maps/org/tekhnicheskiy_servis_bitport/1377422153/?ll=66.377586%2C66.659455&utm_content=org-name&utm_medium=reviews&utm_source=maps-reviews-widget&z=16",
                     "_blank",
                   )
                 }
