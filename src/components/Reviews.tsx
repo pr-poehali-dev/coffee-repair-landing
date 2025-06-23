@@ -22,7 +22,7 @@ const Reviews = () => {
             >
               <iframe
                 className="w-full h-full border border-gray-200 rounded-lg"
-                src="https://yandex.ru/maps-reviews-widget/1377422153?comments"
+                src="https://yandex.ru/maps-reviews-widget/1377422153?comments&sort=rating_desc"
                 title="Отзывы о техническом сервисе Битпорт"
               />
               <a
