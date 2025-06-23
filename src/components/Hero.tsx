@@ -28,7 +28,8 @@ const Hero = () => {
 
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
           Профессиональный ремонт домашних и коммерческих кофемашин. Быстро,
-          качественно, с гарантией. Более 9000 довольных клиентов.
+          качественно, с гарантией. Более 9000 довольных клиентов. Принимаем
+          заказы из Харпа и Салехарда.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
