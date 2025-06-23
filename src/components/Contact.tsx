@@ -150,7 +150,7 @@ const Contact = () => {
               <Button
                 onClick={() =>
                   window.open(
-                    "https://yandex.ru/maps/?text=Москва, ул. Тверская, 15&mode=routes",
+                    "https://yandex.ru/maps/?text=г Лабытнанги ул. Школьная 24, ТЦ Донбасс&mode=routes",
                     "_blank",
                   )
                 }
