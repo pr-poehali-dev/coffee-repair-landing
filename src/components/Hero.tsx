@@ -21,7 +21,9 @@ const Hero = () => {
 
         <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
           Ремонт кофемашин
-          <span className="block text-violet-600">любой сложности</span>
+          <span className="block text-violet-600">
+            любой сложности в Лабытнанги!
+          </span>
         </h1>
 
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
