@@ -26,7 +26,7 @@ const Contact = () => {
     {
       icon: "MapPin",
       title: "Адрес",
-      value: "ул. Кофейная, 15",
+      value: 'ул. Школьная 24, ТЦ "Донбасс"',
       description: "г. Лабытнанги",
     },
   ];
