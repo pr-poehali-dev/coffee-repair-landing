@@ -77,17 +77,56 @@ const Contact = () => {
           </div>
 
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
-            <div className="h-80 bg-gradient-to-br from-violet-100 to-orange-100 flex items-center justify-center">
-              <div className="text-center">
-                <Icon
-                  name="Map"
-                  size={64}
-                  className="mx-auto mb-4 text-violet-600"
+            <div className="h-80 bg-gradient-to-br from-violet-100 to-orange-100 flex items-center justify-center overflow-hidden rounded-2xl">
+              <div
+                style={{
+                  position: "relative",
+                  overflow: "hidden",
+                  width: "100%",
+                  height: "100%",
+                }}
+              >
+                <a
+                  href="https://yandex.ru/maps/org/tekhnicheskiy_servis_bitport/1377422153/?utm_medium=mapframe&utm_source=maps"
+                  style={{
+                    color: "#eee",
+                    fontSize: "12px",
+                    position: "absolute",
+                    top: "0px",
+                  }}
+                >
+                  Технический сервис Битпорт
+                </a>
+                <a
+                  href="https://yandex.ru/maps/23329/labytnangi/category/phone_repair/184107787/?utm_medium=mapframe&utm_source=maps"
+                  style={{
+                    color: "#eee",
+                    fontSize: "12px",
+                    position: "absolute",
+                    top: "14px",
+                  }}
+                >
+                  Ремонт телефонов в Лабытнанги
+                </a>
+                <a
+                  href="https://yandex.ru/maps/23329/labytnangi/category/appliance_repair/184108223/?utm_medium=mapframe&utm_source=maps"
+                  style={{
+                    color: "#eee",
+                    fontSize: "12px",
+                    position: "absolute",
+                    top: "28px",
+                  }}
+                >
+                  Ремонт бытовой техники в Лабытнанги
+                </a>
+                <iframe
+                  src="https://yandex.ru/map-widget/v1/org/tekhnicheskiy_servis_bitport/1377422153/?ll=66.377586%2C66.659455&utm_content=org-name&utm_medium=reviews&utm_source=maps-reviews-widget&z=16"
+                  width="100%"
+                  height="100%"
+                  frameBorder="0"
+                  allowFullScreen={true}
+                  style={{ position: "relative" }}
                 />
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                  Карта
-                </h3>
-                <p className="text-gray-600">Интерактивная карта будет здесь</p>
               </div>
             </div>
             <div className="p-6">
