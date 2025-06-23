@@ -150,7 +150,7 @@ const Contact = () => {
               <Button
                 onClick={() =>
                   window.open(
-                    "https://yandex.ru/maps/?rtext=~66.377586,66.659455&rtt=auto",
+                    "https://yandex.ru/maps/?rtext=~66.377586,66.659455&rtt=auto&text=Технический%20сервис%20Битпорт",
                     "_blank",
                   )
                 }
