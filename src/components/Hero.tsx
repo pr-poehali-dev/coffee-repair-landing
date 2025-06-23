@@ -110,8 +110,10 @@ const Hero = () => {
               size={40}
               className="mx-auto mb-4 text-orange-500"
             />
-            <h3 className="font-semibold text-gray-900 mb-2">Выезд на дом</h3>
-            <p className="text-gray-600 text-sm">По всему городу</p>
+            <h3 className="font-semibold text-gray-900 mb-2">Доставка</h3>
+            <p className="text-gray-600 text-sm">
+              Заберём/Вернём после ремонта
+            </p>
           </div>
         </div>
       </div>
