@@ -89,7 +89,7 @@ const Hero = () => {
               className="mx-auto mb-4 text-orange-500"
             />
             <h3 className="font-semibold text-gray-900 mb-2">Быстрый ремонт</h3>
-            <p className="text-gray-600 text-sm">От 30 минут до 2 дней</p>
+            <p className="text-gray-600 text-sm">От 30 минут</p>
           </div>
 
           <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg">
